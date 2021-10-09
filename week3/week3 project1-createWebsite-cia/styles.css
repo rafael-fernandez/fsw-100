@@ -1,5 +1,4 @@
-/*
-1) Make the main headline dark green.*/
+/* 1) Make the main headline dark green. */
 h1 {
     color: darkgreen;
     
@@ -22,9 +21,7 @@ h2 {
 /*Give the paragraphs a line height of 25 pixels.*/ 
 
 p {
-   line-height: 25px;
-   
-   
+   line-height: 25px;   
 }
 
 /*
@@ -53,20 +50,4 @@ img {
 float: left;
 width: 370px;
 margin-right: 15px;
-
 }
-
-
-/**/ 
-
-
-
-
-
-
-
-
-
-
-
-/* p:first-child {} */
