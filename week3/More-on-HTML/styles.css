@@ -1,0 +1,17 @@
+/* Give your header a name and change the text to the color blue*/
+#headerName {
+    color: blue;
+}
+
+/*#4 Style your table to have a black border.*/
+
+table  {
+    border: 2px solid black;
+}
+
+/* I understand it was not part of the request. I can add the table to this to make one, however I added the trow and tdata for visual purposes on my end*/
+th, td, tr {
+border: 2px solid black;
+
+}
+
