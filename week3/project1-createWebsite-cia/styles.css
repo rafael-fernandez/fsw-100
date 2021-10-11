@@ -4,18 +4,17 @@ h1 {
     
 }
 
-/*created this class to complete the request. I could add h1 and h2 together below */
+/* 3) Center the text of the main headline and the sub-headline */
 .centerText {
     text-align: center;
-}
+  }
 
 /*
-2) Use the font family "Georgia" for the main headline and the sub-headline.
-3) Center the text of the main headline and the sub-headline */
+2) Use the font family "Georgia" for the main headline and the sub-headline. */
 
-h2 {
-    font-family: Georgia;
-    text-align: center;
+
+.georgiaFont {
+ font-family: Georgia;
 }
 
 /*Give the paragraphs a line height of 25 pixels.*/ 
@@ -49,5 +48,9 @@ a:hover {
 img {
 float: left;
 width: 370px;
-margin-right: 15px;
+margin-right: 20px;
+}
+
+li:first-child{
+color: red
 }
