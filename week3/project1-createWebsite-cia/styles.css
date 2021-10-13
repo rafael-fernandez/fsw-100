@@ -38,7 +38,7 @@ a:hover {
 /* 
 6) Make the "You might also like" label all uppercase. */
 
-#allUppercase{
+#allUpperCase{
    text-transform: uppercase;
 }
 
@@ -51,6 +51,8 @@ width: 370px;
 margin-right: 20px;
 }
 
-li:first-child{
-color: red
+p span  {
+   color: blue;
+   font-style: italic;
+   
 }
