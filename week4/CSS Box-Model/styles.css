@@ -15,7 +15,7 @@ ul {
       
      
 }
-  li a {
+li a {
      display: block;
      color: gray;
      text-align: center;
@@ -33,15 +33,17 @@ li a:hover {
       width: 100%;
       background-color: rgb(223, 221, 221);
       color: rgb(66, 65, 65);
+      top: 0;
        
 }
 
- .container, .container2, 
-.container3, .container4{
-      display: flex;
-      justify-content: center;
+ .container {
+      /* display: flex;
+      justify-content: center; */
       padding-top: 55px;
- 
+      margin: 0 auto;
+      width: 50%;
+      
 }
 
 
@@ -64,21 +66,19 @@ section {
     
    }
  
-  .blogName, .blogName2, 
-  .blogName3,.blogName4{
+.blogName {
     margin: 2px;
     color: blue
   
   }
   
-#date {
+.date {
      margin: 5px;
      color: green;
 }
 
 
-#blogPost1, #blogPost2,
-#blogPost3, #blogPost4 {
+.blogPost {
       margin: 15px;
 }
 
@@ -91,7 +91,7 @@ a, p, h1, h2, h3, h4, h5 {
 }
  
 
-#post4  {
+.post {
       color: blue;
      
 }
