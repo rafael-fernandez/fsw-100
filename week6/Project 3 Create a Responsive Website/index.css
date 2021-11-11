@@ -20,12 +20,8 @@ height: 80px;
 background-color: #bebebe;
 }
 
-nav:hover{
-color: red;
-}
 
-
-footer {
+h5 {
 width: 100%;
 text-align: center;
 }
@@ -39,7 +35,6 @@ nav > a, img
 nav > a:visited,
 nav > a:active {
 color: blue;
-font-weight: bold;
 text-decoration: none;
 }
 
@@ -145,13 +140,36 @@ cursor: pointer;
 
 footer 
 {
-font-size: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: start;
+font-size: 25px;
+height: 250px;
 
+
+background-color: #bebebe;
 }
 
+footer > a{
+    text-decoration: none;
+   margin-top: 30px;
+   margin-left: 20px;
+   color: blue;
+}
 
+a:hover {
+    color: red;
+}
 
-
+.copyright {
+    color: blue;
+    font-size: 10px;
+}
+.copyright {
+    color: blue;
+    font-size: 20px;
+}
 
                                         /* desk 1366*/
 @media screen and (min-width: 3000px) 
